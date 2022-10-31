@@ -1,0 +1,35 @@
+html {
+  width: 100%;
+}
+nav {
+  font-size: 16px;
+  font-family: "Poppins";
+}
+nav.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 75px;
+  width: 100%;
+  background-color: azure;
+}
+div.nav-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: inherit;
+}
+div.nav-left {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.nav-item {
+  padding: 10px;
+}
+ul.nav-links {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
