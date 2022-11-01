@@ -37,3 +37,17 @@ ul.nav-links {
   display: flex;
   flex-direction: column;
 }
+
+.left-column-container {
+  width: 40%;
+  height: auto;
+  margin: 50px;
+}
+.recipe-image-container {
+  display: flex;
+  height: 250px;
+}
+.recipe-image-container img {
+  width: 100%;
+  object-fit: cover;
+}
