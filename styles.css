@@ -3,7 +3,7 @@ html {
 }
 nav {
   font-size: 16px;
-  font-family: "Poppins";
+  font-family: "Prata";
 }
 nav.nav-container {
   display: flex;
@@ -36,7 +36,8 @@ ul.nav-links {
 .content-container {
   display: flex;
   flex-direction: row;
-  margin: 50px;
+  margin: 25px;
+  font-family: 'Prata';
 }
 
 .left-column-container {
@@ -65,4 +66,30 @@ ul.nav-links {
 }
 .recipe-quote p {
   text-align: center;
+}
+.ingredient-list-content {
+  text-align: center;
+  font-family: 'Poppins';
+}
+.ingredient-column-content {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+}
+.nutrition-facts-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.nutrition-facts-content {
+  display: flex;
+  flex-direction: row;
+  border-width: 1px 0px;
+  border-style: solid;
+  border-color: black;
+  justify-content: space-around;
+  width: 100%;
+  margin-left: 50px;
+  margin-right: 50px;
 }
