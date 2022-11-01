@@ -33,3 +33,7 @@ ul.nav-links {
   flex-direction: row;
   list-style-type: none;
 }
+.content-container {
+  display: flex;
+  flex-direction: column;
+}
