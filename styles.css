@@ -35,14 +35,26 @@ ul.nav-links {
 }
 .content-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  margin: 50px;
 }
 
 .left-column-container {
   width: 40%;
   height: auto;
-  margin: 50px;
+  /* margin: 50px; */
 }
+.right-column-container {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+.right-column-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .recipe-image-container {
   display: flex;
   height: 250px;
@@ -50,4 +62,7 @@ ul.nav-links {
 .recipe-image-container img {
   width: 100%;
   object-fit: cover;
+}
+.recipe-quote p {
+  text-align: center;
 }
