@@ -1,9 +1,15 @@
 html {
   width: 100%;
 }
+h3 {
+  margin: 0;
+}
 nav {
   font-size: 16px;
-  font-family: "Prata";
+  font-family: "Cormorant Garamond";
+}
+.body {
+  background-color: #f2f2f2;
 }
 nav.nav-container {
   display: flex;
@@ -11,7 +17,7 @@ nav.nav-container {
   justify-content: center;
   height: 75px;
   width: 100%;
-  background-color: azure;
+  background-color: #71736a;
 }
 div.nav-content {
   display: flex;
@@ -19,6 +25,9 @@ div.nav-content {
   justify-content: space-around;
   align-items: center;
   width: inherit;
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
 }
 div.nav-left {
   display: flex;
@@ -37,7 +46,7 @@ ul.nav-links {
   display: flex;
   flex-direction: row;
   margin: 25px;
-  font-family: 'Prata';
+  font-family: "Cormorant Garamond";
 }
 
 .left-column-container {
@@ -58,7 +67,7 @@ ul.nav-links {
 
 .recipe-image-container {
   display: flex;
-  height: 250px;
+  height: 350px;
 }
 .recipe-image-container img {
   width: 100%;
@@ -66,21 +75,38 @@ ul.nav-links {
 }
 .recipe-quote p {
   text-align: center;
+  font-style: italic;
+  opacity: 50%;
+  font-size: 20px;
+}
+.ingredient-title {
+  font-size: 28px;
+  margin-bottom: 15px;
 }
 .ingredient-list-content {
   text-align: center;
-  font-family: 'Poppins';
+  font-family: "Cormorant Garamond";
 }
 .ingredient-column-content {
   display: flex;
   flex-direction: row;
   text-align: left;
+  font-size: 20px;
+}
+.ingredient-column {
+  margin: 0px 25px;
 }
 .nutrition-facts-container {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
+}
+.nutrients span {
+  font-weight: 700;
+}
+li.nutrients {
+  list-style-type: none;
 }
 .nutrition-facts-content {
   display: flex;
@@ -92,4 +118,11 @@ ul.nav-links {
   width: 100%;
   margin-left: 50px;
   margin-right: 50px;
+}
+.cooking-instructions-content {
+  font-size: 22px;
+}
+
+.cooking-instructions-content ol li {
+  margin: 20px 0px;
 }
